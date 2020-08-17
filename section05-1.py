@@ -50,3 +50,23 @@ c = 15
 print("and : ", a > b and b > c)
 print("or : ", a > b or c > b)
 print("not : ", not a > b)
+
+# 산술, 관계, 논리연산자
+# 산술 > 관계 > 논리 순서로 적용
+print("ex1 : ", 5+10 > 0 and not 7+3 == 10)
+score1 = 90
+score2 = "A"
+if score1 >= 90 and score2 == "A":
+    print("합격")
+else:
+    print("불합격")
+
+# 다중 조건문
+num = 70
+if num >= 90:
+    print("num 등급 A", num)
+elif num >= 80:
+    print("num 등급 B", num)
+else:
+    print("num 등급 F", num)
+
