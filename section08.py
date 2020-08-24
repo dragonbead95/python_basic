@@ -14,7 +14,7 @@ import pkg.calculations as c
 from pkg.fibonacci import Fibonacci as fb  # 별칭 설정
 from pkg.fibonacci import *  # 모든 클래스를 가져오지만 리소스 낭비이다.
 from pkg.fibonacci import Fibonacci
-"""
+
 Fibonacci.fib(5)
 
 print("ex2 : ", Fibonacci.fib2(400))
@@ -57,4 +57,3 @@ p.prt2()
 print(dir(builtins))
 
 
-"""
